@@ -38,3 +38,29 @@ Private folders
 Route groups
 /src/app/(auth)/login
 /src/app/(auth)/register
+Layouts
+UI block that is shared among different pages, components
+layout.js or layout.tsx
+children props are available by default
+Special files
+page.js
+layout.js
+loading.js
+not-found.js
+error.js => Always a client component
+React server component
+1. Server component
+All react server components Next.js are server components (type) by default
+It can do server side tasks like data fetching, file read, async tasks.
+Cannot use react hooks, user interaction, events
+2. Client component
+Can use react hooks, user interaction, events
+Traditional react component
+Use the directive use client on the top of component
+Params and SearchParams
+For server component
+params: dynamic route params, available on page.js and layout.js
+searchParams: query params, available on only page.js
+For Client component
+useParams();
+useSearchParams();

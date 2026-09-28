@@ -64,3 +64,5 @@ searchParams: query params, available on only page.js
 For Client component
 useParams();
 useSearchParams();
+
+

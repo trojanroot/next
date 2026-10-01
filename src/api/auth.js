@@ -7,4 +7,5 @@ export const login = async (data) => {
 
 export const signUp = async (data) => {
   return await axios.post(`${config.apiUrl}/api/auth/register`, data);
+  
 };

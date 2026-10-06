@@ -5,5 +5,4 @@ function RegisterPage() {
     <div>RegisterPage</div>
   )
 }
-
 export default RegisterPage
